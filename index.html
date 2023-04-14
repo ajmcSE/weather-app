@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Weather Forecast</title>
+    <link rel="stylesheet" type="text/css" href="./assets/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Weather Forecast</h1>
+        <form>
+            <label for="city">Enter a city name:</label>
+            <input type="text" id="city" name="city" placeholder="City Name">
+            <button type="button" onclick="getWeather()">Search</button>
+        </form>
+        <div id="weather-cards"></div>
+        <div id="search-history"></div>
+    </div>
+
+    <script src="./assets/script.js"></script>
+</body>
+</html>
